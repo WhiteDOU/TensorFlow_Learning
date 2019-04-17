@@ -2,6 +2,8 @@ from __future__ import absolute_import, division, print_function
 import tensorflow as tf
 import tensorflow as tf
 from tensorflow import keras
+import pandas as pd
+
 
 (train_images, train_labels), (test_images, test_labels) = keras.datasets.mnist.load_data()
 
